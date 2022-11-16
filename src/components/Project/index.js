@@ -7,6 +7,8 @@ import {
   java,
   weather,
   data,
+  budget,
+  todo,
 } from '../../assets/images'
 
 // projects data
@@ -19,11 +21,11 @@ export const projects = [
     stack: 'Python Machine Learning',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Wordle-clone',
+      url: 'https://github.com/BANADDA/bot',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://worlde-cloned.netlify.app/',
+      url: 'https://github.com/BANADDA/bot',
     },
     imgUrl: bot,
   },
@@ -34,11 +36,11 @@ export const projects = [
     stack: 'Flutter, Dart, Firebase',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Restaurant-Website-project',
+      url: 'https://github.com/MyHOSTEL-GROUP31/MyHOSTEL-GROUP31.github.io',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://gericht-restaurant-website.netlify.app/',
+      url: 'https://github.com/MyHOSTEL-GROUP31/MyHOSTEL-GROUP31.github.io',
     },
     imgUrl: images,
   },
@@ -51,11 +53,11 @@ export const projects = [
 
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/OpenAI-project',
+      url: 'https://github.com/BANADDA/JAVA-CODE',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://gpt3-openai-project.netlify.app/',
+      url: 'https://github.com/BANADDA/JAVA-CODE',
     },
   },
   {
@@ -65,11 +67,11 @@ export const projects = [
     stack: 'React JS, REST API',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/React-booking-project',
+      url: 'https://github.com/BANADDA/react_weather_app',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://react-booking-project.netlify.app/',
+      url: 'https://weatherexpert.netlify.app/',
     },
     imgUrl: weather,
   },
@@ -81,11 +83,11 @@ export const projects = [
     stack: 'Deep Learning, Tensorflow',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/rest-countries-api-project',
+      url: '',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://rest-countries-web-app-project.netlify.app/',
+      url: '',
     },
     imgUrl: data,
   },
@@ -106,32 +108,32 @@ export const projects = [
   },
   {
     id: 4,
-    name: 'Hotel Booking Project',
-    desc: 'A complicated project that enhanced my skills a lot',
+    name: 'Budget Calculator',
+    desc: 'A react app designed to keep track of daily expenses',
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/React-booking-project',
+      url: 'https://github.com/BANADDA/budget-calculator/tree/main/budget-calculator',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://react-booking-project.netlify.app/',
+      url: 'https://budget-calculator-expert.netlify.app',
     },
-    imgUrl: weather,
+    imgUrl: budget,
   },
   {
     id: 2,
-    name: 'Restaurant Website',
-    desc: 'A Responsive restaurant website design with great UI Effect',
+    name: 'Todo App',
+    desc: 'A React scheduler app for daily tasks',
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Restaurant-Website-project',
+      url: 'https://github.com/BANADDA/todo_app_react',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://gericht-restaurant-website.netlify.app/',
+      url: ' https://task-schedular-app.netlify.app',
     },
-    imgUrl: weather,
+    imgUrl: todo,
   },
 ]
