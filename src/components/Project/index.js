@@ -9,6 +9,7 @@ import {
   data,
   budget,
   todo,
+  particles,
 } from '../../assets/images'
 
 // projects data
@@ -104,7 +105,7 @@ export const projects = [
       icon: <TbWorld />,
       url: ' https://react-particles-bg.netlify.app',
     },
-    imgUrl: weather,
+    imgUrl: particles,
   },
   {
     id: 4,
