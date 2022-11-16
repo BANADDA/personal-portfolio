@@ -93,16 +93,16 @@ export const projects = [
   },
   {
     id: 6,
-    name: 'Huddle Landing Page',
-    desc: 'A simple landing page website',
-    stack: 'React js, SCSS',
+    name: 'React Particle JS',
+    desc: 'A simple particles background for react webpage',
+    stack: 'React js, SCSS, particleJS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Huddle-landing-page',
+      url: 'https://github.com/BANADDA/react-particlesjs',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://huddle-website-project.netlify.app/',
+      url: ' https://react-particles-bg.netlify.app',
     },
     imgUrl: weather,
   },
